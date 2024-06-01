@@ -354,16 +354,19 @@ public class EaglerProfile {
 	}
 
 	static {
+		rand = new EaglercraftRandom();
+
 		String[] defaultNames = new String[] {
 				"Yeeish", "Yeeish", "Yee", "Yee", "Yeer", "Yeeler", "Eagler", "Eagl",
-				"Darver", "Darvler", "Vool", "Vigg", "Vigg", "Deev", "Yigg", "Yeeg"
+				"Darver", "Darvler", "Vool", "Vigg", "Vigg", "Deev", "Yigg", "Yeeg",
+				"fornitekid","Joe-biden","milker"
 		};
 		
-		rand = new EaglercraftRandom();
+
 		
 		do {
 			username = defaultNames[rand.nextInt(defaultNames.length)] + defaultNames[rand.nextInt(defaultNames.length)] + (100 + rand.nextInt(900));
-		}while(username.length() > 16);
+		}while(username.length() > 69);
 		
 		setName(username);
 		
