@@ -10,9 +10,9 @@ public class EaglercraftVersion {
 	/// Customize these to fit your fork:
 	
 	public static final String projectForkName = "EaglercraftXX";
-	public static final String projectForkVersion = "u1 ";
+	public static final String projectForkVersion = "u1.1";
 	public static final String projectForkVendor = "ThatOneRateLimitedDev429";
-	
+
 	public static final String projectForkURL = "https://github.com/ThatOneRateLimitedDev429/EaglercraftXX";
 	
 	//////////////////////////////////////////////////////////////////////
